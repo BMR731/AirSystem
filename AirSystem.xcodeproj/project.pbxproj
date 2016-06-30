@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76ED229B1D2506FF00DD0394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED229A1D2506FF00DD0394 /* AppDelegate.swift */; };
+		76ED229D1D2506FF00DD0394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED229C1D2506FF00DD0394 /* ViewController.swift */; };
+		76ED22A01D2506FF00DD0394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ED229E1D2506FF00DD0394 /* Main.storyboard */; };
+		76ED22A21D2506FF00DD0394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ED22A11D2506FF00DD0394 /* Assets.xcassets */; };
+		76ED22A51D2506FF00DD0394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ED22A31D2506FF00DD0394 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76ED22971D2506FF00DD0394 /* AirSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ED229A1D2506FF00DD0394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76ED229C1D2506FF00DD0394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76ED229F1D2506FF00DD0394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76ED22A11D2506FF00DD0394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76ED22A41D2506FF00DD0394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76ED22A61D2506FF00DD0394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76ED22941D2506FE00DD0394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76ED228E1D2506FE00DD0394 = {
+			isa = PBXGroup;
+			children = (
+				76ED22991D2506FF00DD0394 /* AirSystem */,
+				76ED22981D2506FF00DD0394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76ED22981D2506FF00DD0394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76ED22971D2506FF00DD0394 /* AirSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76ED22991D2506FF00DD0394 /* AirSystem */ = {
+			isa = PBXGroup;
+			children = (
+				76ED229A1D2506FF00DD0394 /* AppDelegate.swift */,
+				76ED229C1D2506FF00DD0394 /* ViewController.swift */,
+				76ED229E1D2506FF00DD0394 /* Main.storyboard */,
+				76ED22A11D2506FF00DD0394 /* Assets.xcassets */,
+				76ED22A31D2506FF00DD0394 /* LaunchScreen.storyboard */,
+				76ED22A61D2506FF00DD0394 /* Info.plist */,
+			);
+			path = AirSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76ED22961D2506FE00DD0394 /* AirSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ED22A91D2506FF00DD0394 /* Build configuration list for PBXNativeTarget "AirSystem" */;
+			buildPhases = (
+				76ED22931D2506FE00DD0394 /* Sources */,
+				76ED22941D2506FE00DD0394 /* Frameworks */,
+				76ED22951D2506FE00DD0394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirSystem;
+			productName = AirSystem;
+			productReference = 76ED22971D2506FF00DD0394 /* AirSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76ED228F1D2506FE00DD0394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "胡胡赛军";
+				TargetAttributes = {
+					76ED22961D2506FE00DD0394 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 76ED22921D2506FE00DD0394 /* Build configuration list for PBXProject "AirSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76ED228E1D2506FE00DD0394;
+			productRefGroup = 76ED22981D2506FF00DD0394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76ED22961D2506FE00DD0394 /* AirSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76ED22951D2506FE00DD0394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ED22A51D2506FF00DD0394 /* LaunchScreen.storyboard in Resources */,
+				76ED22A21D2506FF00DD0394 /* Assets.xcassets in Resources */,
+				76ED22A01D2506FF00DD0394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76ED22931D2506FE00DD0394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ED229D1D2506FF00DD0394 /* ViewController.swift in Sources */,
+				76ED229B1D2506FF00DD0394 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76ED229E1D2506FF00DD0394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ED229F1D2506FF00DD0394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76ED22A31D2506FF00DD0394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ED22A41D2506FF00DD0394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76ED22A71D2506FF00DD0394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76ED22A81D2506FF00DD0394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76ED22AA1D2506FF00DD0394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sniper.AirSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76ED22AB1D2506FF00DD0394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sniper.AirSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76ED22921D2506FE00DD0394 /* Build configuration list for PBXProject "AirSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ED22A71D2506FF00DD0394 /* Debug */,
+				76ED22A81D2506FF00DD0394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ED22A91D2506FF00DD0394 /* Build configuration list for PBXNativeTarget "AirSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ED22AA1D2506FF00DD0394 /* Debug */,
+				76ED22AB1D2506FF00DD0394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76ED228F1D2506FE00DD0394 /* Project object */;
+}
