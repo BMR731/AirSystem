@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27F89C48020FE588CA1B7216 /* Pods_AirSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DBEE84533BF31738279A7B /* Pods_AirSystem.framework */; };
+		76C3B0AC1D25761B005AE86F /* showTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3B0AB1D25761B005AE86F /* showTableViewController.swift */; };
+		76C3B0AE1D257884005AE86F /* showTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3B0AD1D257884005AE86F /* showTableViewCell.swift */; };
+		76C3B0B01D258594005AE86F /* verifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3B0AF1D258594005AE86F /* verifyViewController.swift */; };
+		76C3B0B21D25925A005AE86F /* addPassengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3B0B11D25925A005AE86F /* addPassengerViewController.swift */; };
 		76ED229B1D2506FF00DD0394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED229A1D2506FF00DD0394 /* AppDelegate.swift */; };
 		76ED229D1D2506FF00DD0394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED229C1D2506FF00DD0394 /* ViewController.swift */; };
 		76ED22A01D2506FF00DD0394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ED229E1D2506FF00DD0394 /* Main.storyboard */; };
 		76ED22A21D2506FF00DD0394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ED22A11D2506FF00DD0394 /* Assets.xcassets */; };
 		76ED22A51D2506FF00DD0394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ED22A31D2506FF00DD0394 /* LaunchScreen.storyboard */; };
+		76ED22AD1D25092700DD0394 /* AddFlightRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED22AC1D25092700DD0394 /* AddFlightRouteViewController.swift */; };
+		76ED22B11D2509C100DD0394 /* BookTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED22B01D2509C100DD0394 /* BookTicketViewController.swift */; };
+		76ED22B31D2509D400DD0394 /* RefundTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED22B21D2509D400DD0394 /* RefundTicketViewController.swift */; };
+		76ED22B51D2509FB00DD0394 /* ScanAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED22B41D2509FB00DD0394 /* ScanAllViewController.swift */; };
+		76ED22B71D251B2A00DD0394 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED22B61D251B2A00DD0394 /* database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B73A6BBCB1A61103E768EB4 /* Pods-AirSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirSystem/Pods-AirSystem.release.xcconfig"; sourceTree = "<group>"; };
+		63DBEE84533BF31738279A7B /* Pods_AirSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C3B0AB1D25761B005AE86F /* showTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showTableViewController.swift; sourceTree = "<group>"; };
+		76C3B0AD1D257884005AE86F /* showTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showTableViewCell.swift; sourceTree = "<group>"; };
+		76C3B0AF1D258594005AE86F /* verifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verifyViewController.swift; sourceTree = "<group>"; };
+		76C3B0B11D25925A005AE86F /* addPassengerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addPassengerViewController.swift; sourceTree = "<group>"; };
 		76ED22971D2506FF00DD0394 /* AirSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76ED229A1D2506FF00DD0394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76ED229C1D2506FF00DD0394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,12 @@
 		76ED22A11D2506FF00DD0394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76ED22A41D2506FF00DD0394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76ED22A61D2506FF00DD0394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76ED22AC1D25092700DD0394 /* AddFlightRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFlightRouteViewController.swift; sourceTree = "<group>"; };
+		76ED22B01D2509C100DD0394 /* BookTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTicketViewController.swift; sourceTree = "<group>"; };
+		76ED22B21D2509D400DD0394 /* RefundTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundTicketViewController.swift; sourceTree = "<group>"; };
+		76ED22B41D2509FB00DD0394 /* ScanAllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanAllViewController.swift; sourceTree = "<group>"; };
+		76ED22B61D251B2A00DD0394 /* database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
+		E02E55F1463AE97EB688852E /* Pods-AirSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirSystem/Pods-AirSystem.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F89C48020FE588CA1B7216 /* Pods_AirSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A64B3B09AAD36350EC4AA30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63DBEE84533BF31738279A7B /* Pods_AirSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35D0C812AC2BF36DE165B211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E02E55F1463AE97EB688852E /* Pods-AirSystem.debug.xcconfig */,
+				2B73A6BBCB1A61103E768EB4 /* Pods-AirSystem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		76ED228E1D2506FE00DD0394 = {
 			isa = PBXGroup;
 			children = (
 				76ED22991D2506FF00DD0394 /* AirSystem */,
 				76ED22981D2506FF00DD0394 /* Products */,
+				35D0C812AC2BF36DE165B211 /* Pods */,
+				1A64B3B09AAD36350EC4AA30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +102,15 @@
 				76ED22A11D2506FF00DD0394 /* Assets.xcassets */,
 				76ED22A31D2506FF00DD0394 /* LaunchScreen.storyboard */,
 				76ED22A61D2506FF00DD0394 /* Info.plist */,
+				76ED22AC1D25092700DD0394 /* AddFlightRouteViewController.swift */,
+				76ED22B01D2509C100DD0394 /* BookTicketViewController.swift */,
+				76ED22B21D2509D400DD0394 /* RefundTicketViewController.swift */,
+				76ED22B41D2509FB00DD0394 /* ScanAllViewController.swift */,
+				76ED22B61D251B2A00DD0394 /* database.swift */,
+				76C3B0AB1D25761B005AE86F /* showTableViewController.swift */,
+				76C3B0AD1D257884005AE86F /* showTableViewCell.swift */,
+				76C3B0AF1D258594005AE86F /* verifyViewController.swift */,
+				76C3B0B11D25925A005AE86F /* addPassengerViewController.swift */,
 			);
 			path = AirSystem;
 			sourceTree = "<group>";
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76ED22A91D2506FF00DD0394 /* Build configuration list for PBXNativeTarget "AirSystem" */;
 			buildPhases = (
+				042B04821175BEF5B3AFC420 /* [CP] Check Pods Manifest.lock */,
 				76ED22931D2506FE00DD0394 /* Sources */,
 				76ED22941D2506FE00DD0394 /* Frameworks */,
 				76ED22951D2506FE00DD0394 /* Resources */,
+				903161BA04F796710B1CFA0D /* [CP] Embed Pods Frameworks */,
+				184271BCF31738A8CCD24355 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +184,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		042B04821175BEF5B3AFC420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		184271BCF31738A8CCD24355 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirSystem/Pods-AirSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903161BA04F796710B1CFA0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirSystem/Pods-AirSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76ED22931D2506FE00DD0394 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C3B0AE1D257884005AE86F /* showTableViewCell.swift in Sources */,
+				76ED22B31D2509D400DD0394 /* RefundTicketViewController.swift in Sources */,
+				76ED22B11D2509C100DD0394 /* BookTicketViewController.swift in Sources */,
+				76C3B0B01D258594005AE86F /* verifyViewController.swift in Sources */,
+				76ED22B51D2509FB00DD0394 /* ScanAllViewController.swift in Sources */,
 				76ED229D1D2506FF00DD0394 /* ViewController.swift in Sources */,
+				76ED22AD1D25092700DD0394 /* AddFlightRouteViewController.swift in Sources */,
+				76C3B0B21D25925A005AE86F /* addPassengerViewController.swift in Sources */,
+				76C3B0AC1D25761B005AE86F /* showTableViewController.swift in Sources */,
+				76ED22B71D251B2A00DD0394 /* database.swift in Sources */,
 				76ED229B1D2506FF00DD0394 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +358,7 @@
 		};
 		76ED22AA1D2506FF00DD0394 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02E55F1463AE97EB688852E /* Pods-AirSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AirSystem/Info.plist;
@@ -258,6 +370,7 @@
 		};
 		76ED22AB1D2506FF00DD0394 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B73A6BBCB1A61103E768EB4 /* Pods-AirSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AirSystem/Info.plist;
@@ -286,6 +399,7 @@
 				76ED22AB1D2506FF00DD0394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
